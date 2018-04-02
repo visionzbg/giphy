@@ -1,0 +1,59 @@
+
+	body {
+		font-family: 'Noto Sans', sans-serif;
+		background-image: url(../assets/images/bkgd.jpg);
+		color: #fff;
+	}
+	
+	.container {
+		position: relative;
+	}
+	
+	header.jumbotron {
+		background: rgb(255, 255, 255);
+	}
+	
+	p {
+		font-family: 'Space Mono', monospace;
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+	h1 {
+		font-family: 'Space Mono', monospace;
+		font-style: bold;
+		font-size: 22px;
+		text-align: center;
+		position: relative;
+		letter-spacing: 8px;
+	}
+	
+	h2 {
+		font-family: 'Space Mono', monospace;
+		color: red;
+		padding-right: 10px;
+		padding-bottom: 10px;
+	}
+
+	.players {
+		background: blue;
+		border-radius: 12px;
+		color: white;
+		font-style: Courier New;
+		font-size: 15px;
+		padding: 10px;
+		margin: 5px;
+		margin-top: 20px;
+	}
+	
+	#patriot-form {
+		text-align: right;
+	}
+
+	input#patriot-input {
+		color: #000;
+	}
+
+	input#add-patriot.btn,btn-deafult {
+		color: #000;
+	}

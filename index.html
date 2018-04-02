@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700i,800,900" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <!-- jquery  -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>New England Patriots</title>
 </head>
+
 <body>
-    
+    <body>
+    	<div class="container"><br>
+			<header class="jumbotron">
+				<h2>New England Patriots</h2>
+			</header>
+			<!-- Buttons will be dumped Here  -->
+			<div id="buttons-view"></div><br>
+			<!-- Submit a Patriot form -->
+			<form class="navbar-form navbar-right" id="patriot-form">
+				<div class="form-group">
+					<label for="patriot-input"><h1>Add Your Favorite Patriot!</h1></label>
+				</div>
+				<input type="text" id="patriot-input"><br>
+				<!-- Button triggers new Patriot to be added -->
+				<input id="add-patriot" button type="submit" class="btn btn-deafult" value="Submit">
+			</form>
+			<!-- Gifs will get dumped here -->
+			<div id="patriots-view" data-state="still"></div>
+		</div>
+
+		<script src="assets/javascript/app.js"></script>
 </body>
+
 </html>
